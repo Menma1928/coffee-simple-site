@@ -85,7 +85,6 @@ nav{
 }
 
 .seccion1_content{
-    
     display: flex;
 
 }
@@ -319,6 +318,154 @@ footer > p{
     margin-top: 30px;
 }
 
+.seccion3 {
+  text-align: center;
+}
+
+.seccion3 h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #361F19;
+}
+
+.seccion3 .texto_descriptivo {
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.proceso_cafe {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card_proceso {
+  background-color: #361F19;
+  color: white;
+  border-radius: 15px;
+  width: 200px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.crema{
+    background-color: #D9A66D;
+    color: black;
+}
+
+.card_proceso img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+/* ===== SECCION 4 ===== */
+.seccion4 {
+  text-align: center;
+}
+
+.productos_populares {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card_producto {
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  width: 220px;
+  padding: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_producto img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
 
+.card_producto h3 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
 
+.card_producto .precio {
+  color: #361F19;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card_producto button {
+  background-color: #D9A66D;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* ===== SECCION 5 ===== */
+.seccion5 {
+  background-color: #f2f2f2;
+}
+
+.suscripcion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.texto_suscripcion {
+  width: 50%;
+}
+
+.texto_suscripcion h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.texto_suscripcion p {
+  margin-bottom: 20px;
+}
+
+.input_suscripcion {
+  display: flex;
+}
+
+.input_suscripcion input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  width: 60%;
+}
+
+.input_suscripcion button {
+  padding: 10px 20px;
+  background-color: #D9A66D;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.imagen_suscripcion img {
+  width: 300px;
+  max-width: 100%;
+}
+
+.card_producto img{
+    transition: 0.6s all;
+}
+
+.card_producto:hover{
+    background-color: burlywood;
+}
+
+
+.card_producto:hover img{
+    transform:scale(1.3);
+}
